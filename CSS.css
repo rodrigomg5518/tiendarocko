@@ -1,0 +1,82 @@
+.contenido {
+    width: 1024px;
+    margin-left: 10%;
+}
+
+.form-control {
+    display: block;
+}
+
+.d-block {
+    height: 390px;
+    width: 1300px;
+    color: rgb(3, 3, 3);
+    margin: 10px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.search {
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    background: #ffff;
+    padding: auto;
+    padding-bottom: auto;
+    max-height: auto;
+    overflow: hidden;
+    display: none;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+img.zoom {
+    width: 300px;
+    height: 220px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+.bi-twitter {
+    color: #00acee;
+}
+
+.bi-instagram {
+    color: #FF00FF;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-envelope-fill {
+    color: #FF0000;
+}
